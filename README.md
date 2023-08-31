@@ -8,7 +8,7 @@ Run firefox from a docker image with local X-forwarding
 . docker-firefox.sh
 ```
 
-Note: your profile info (like browsing history and extensions) are kept in a mounted location. The location to mount is set via `DOCKER_FIREFOX_PROFILE_PATH` environment variable, which defaults to `$HOME/.docker_firefox_profile`.
+Note: your profile info (like browsing history and extensions) are kept in a mounted location. The location to mount is set via `DOCKER_FIREFOX_HOME` environment variable, which defaults to `$HOME/.docker_firefox_home`.
 
 ## Building the image
 
